@@ -1,43 +1,49 @@
 <!doctype html>
 <html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#172654">
-  <title>Tienda Clara | Compra fácil y accesible</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <a class="skip" href="#main">Saltar al contenido principal</a>
-  <div class="top">✦ Envíos de demostración a todo Ecuador · Proyecto académico APE 4</div>
-  <header class="head">
-    <div class="wrap nav">
-      <button class="brand" data-go="catalog" aria-label="Ir al inicio de Tienda Clara">
-        <span class="logo">✦</span> tienda<span>clara.</span>
-      </button>
-      <nav aria-label="Navegación principal">
-        <button data-go="catalog">Explorar</button>
-        <button data-go="about">Nosotros</button>
-        <button class="cartbtn" data-go="cart" aria-label="Ver carrito de compras">
-          🛒 Carrito <span id="cartcount">0</span>
-        </button>
-      </nav>
-    </div>
-  </header>
-  <main id="main" class="wrap" tabindex="-1"></main>
-  <div id="toast" role="status" aria-live="polite"></div>
-  <footer>
-    <div class="wrap foot">
-      <div>
-        <b>✦ tiendaclara.</b>
-        <p>Compra inteligente, sin complicaciones.</p>
-      </div>
-      <div>
-        <b>Prototipo académico final (v2)</b>
-        <p>Universidad Técnica de Ambato · Interacción Humano–Computador · Sin transacciones reales</p>
-      </div>
-    </div>
-  </footer>
-  <script src="app.js"></script>
-</body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#172654">
+		<title>Tienda Clara | Compra fácil</title>
+		<link rel="stylesheet" href="./styles.css">
+		<script src="./app.js" defer></script>
+	</head>
+	<body>
+		<a class="skip" href="#main">Saltar al contenido</a>
+
+		<div class="top">
+			✦ Envíos de demostración a todo Ecuador · Proyecto académico APE 4
+		</div>
+
+		<header class="head">
+			<div class="wrap nav">
+				<button class="brand" data-go="catalog" aria-label="Ir al inicio">
+					<span class="logo">✦</span> tienda<span>clara.</span>
+				</button>
+				<nav aria-label="Principal">
+					<button data-go="catalog">Explorar</button>
+					<button data-go="about">Nosotros</button>
+					<button class="cartbtn" data-go="cart">
+						🛒 Carrito <span id="cartcount">0</span>
+					</button>
+				</nav>
+			</div>
+		</header>
+
+		<main id="main" class="wrap" tabindex="-1"></main>
+		<div id="toast" role="status" aria-live="polite"></div>
+
+		<footer>
+			<div class="wrap foot">
+				<div>
+					<b>✦ tiendaclara.</b>
+					<p>Compra inteligente, sin complicaciones.</p>
+				</div>
+				<div>
+					<b>Prototipo académico</b>
+					<p>UTA · Interacción Humano–Computador · Sin transacciones reales</p>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
