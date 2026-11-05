@@ -20,7 +20,7 @@ El proyecto, denominado **Tienda Clara**, presenta una experiencia de compra cen
 |---|---|---|---|
 | **Sebastián Vaca** (@Sebas2h) | Redacción y Arquitectura Base | `sebastian` | Elaboración del informe inicial, planteamiento de objetivos y estructura de la práctica (`Informe_APE4_UTA.docx`). |
 | **Andrew Lara** (@alara05) | Desarrollo de Prototipo Base | `andrew` | Implementación de la primera versión funcional del prototipo interactivo (`prototipo/v1`). |
-| **Verónica Jaque** (@ArteMisa82) | Desarrollo de Prototipo Final | `veronica` | Mejora integral de interfaz, micro-interacciones y accesibilidad web WCAG (`prototipo/v2`). |
+| **Verónica Jaque** (@ArteMisa82) | Desarrollo de Prototipo Final | `veronica` | Mejora integral de interfaz, micro-interacciones y accesibilidad web WCAG (`prototipo/prototipo_final`). |
 | **Elizabeth De la Cruz** (@Elizabeth1925) | Evaluación y Documentación Final | `elizabeth` | Ejecución del protocolo de pruebas de usabilidad con usuarios, auditoría de accesibilidad, migración al formato LaTeX oficial y consolidación del informe final. |
 
 ---
@@ -29,8 +29,8 @@ El proyecto, denominado **Tienda Clara**, presenta una experiencia de compra cen
 
 Ambas versiones están desarrolladas con tecnologías web nativas (**HTML5, CSS3 y JavaScript vanilla**), por lo que **no requieren dependencias, compilación ni servidor**:
 
-- **Prototipo v1 (Versión Inicial):** Abrir [`prototipo/index.html`](prototipo/index.html) en el navegador.
-- **Prototipo v2 (Versión Final Mejorada):** Abrir [`prototipo/v2/index.html`](prototipo/v2/index.html) en el navegador.
+- **Prototipo Final Oficial:** Abrir [`prototipo/prototipo_final/index.html`](prototipo/prototipo_final/index.html) en el navegador (o directamente [`prototipo/index.html`](prototipo/index.html) que redirige automáticamente).
+- **Prototipo v1 (Versión Inicial):** Abrir [`prototipo/v1/index.html`](prototipo/v1/index.html) en el navegador.
 
 ---
 
@@ -46,7 +46,7 @@ Ambas versiones están desarrolladas con tecnologías web nativas (**HTML5, CSS3
 - 📋 [`docs/informe_inicial.md`](docs/informe_inicial.md): Síntesis inicial de requisitos y diagnóstico.
 - 📊 [`docs/pruebas_usabilidad_accesibilidad.md`](docs/pruebas_usabilidad_accesibilidad.md): Resultados empíricos de las pruebas de usabilidad con participantes (P01 y P02).
 - 📁 [`prototipo/README.md`](prototipo/README.md): Documentación técnica del prototipo v1.
-- 📁 [`prototipo/v2/README.md`](prototipo/v2/README.md): Documentación técnica y comparativa de mejoras del prototipo v2.
+- 📁 [`prototipo/prototipo_final/README.md`](prototipo/prototipo_final/README.md): Documentación técnica y comparativa de mejoras del prototipo final.
 
 ---
 

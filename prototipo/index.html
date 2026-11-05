@@ -3,20 +3,62 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Tienda Clara - Prototipo v1</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta http-equiv="refresh" content="0; url=prototipo_final/index.html">
+  <title>Tienda Clara - Acceso a Prototipos APE 4</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #f7f8fc;
+      color: #19243c;
+      display: grid;
+      place-items: center;
+      min-height: 90vh;
+      margin: 0;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      max-width: 520px;
+      text-align: center;
+    }
+    h1 { margin-top: 0; color: #172654; }
+    p { color: #55627a; line-height: 1.6; }
+    .btn {
+      display: block;
+      margin: 14px 0;
+      padding: 16px 24px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.2s;
+    }
+    .btn-primary {
+      background: #4c64e8;
+      color: white;
+      font-size: 17px;
+    }
+    .btn-primary:hover { background: #344dcb; }
+    .btn-secondary {
+      background: #eef2ff;
+      color: #3b50c4;
+      font-size: 15px;
+    }
+    .btn-secondary:hover { background: #e0e7ff; }
+  </style>
 </head>
 <body>
-  <header>
-    <strong>🛒 Tienda Clara</strong>
-    <nav aria-label="Navegación principal">
-      <button id="home">Catálogo</button>
-      <button id="cart">Carrito (<span id="count">0</span>)</button>
-    </nav>
-  </header>
-  <main id="view"></main>
-  <div id="notice" role="status" aria-live="polite" style="position:absolute;left:-9999px"></div>
-  <footer>APE 4 · Prototipo educativo · Sin pagos reales</footer>
-  <script src="app.js"></script>
+  <div class="card">
+    <div style="font-size: 48px; margin-bottom: 12px;">🛒</div>
+    <h1>Tienda Clara — APE 4</h1>
+    <p>Redirigiendo automáticamente al <strong>Prototipo Final Oficial</strong>...</p>
+    <a class="btn btn-primary" href="prototipo_final/index.html">👉 Ir al Prototipo Final (Recomendado)</a>
+    <a class="btn btn-secondary" href="v1/index.html">Ver Prototipo Inicial (v1)</a>
+  </div>
+  <script>
+    window.location.replace("prototipo_final/index.html");
+  </script>
 </body>
 </html>
