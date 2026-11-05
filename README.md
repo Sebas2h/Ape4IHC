@@ -1,24 +1,40 @@
 # APE 4 — Interacción Humano–Computador
 
-Este repositorio reúne el informe y el prototipo académico de la APE 4 de la asignatura de Interacción Humano–Computador. El prototipo, Tienda Clara, presenta una experiencia de compra sencilla y accesible.
+Este repositorio reúne el informe formal, las pruebas de usabilidad y los prototipos interactivos académicos de la **APE 4** para la asignatura de **Interacción Humano–Computador (IHC / HCI)** de la Universidad Técnica de Ambato (UTA).
 
-## Cómo abrir el prototipo
+El proyecto, denominado **Tienda Clara**, presenta una experiencia de compra centrada en el usuario, simple, accesible y con mecanismos claros de prevención y recuperación de errores.
 
-Abre `prototipo/index.html` en un navegador para ver la primera versión. Para revisar la versión ampliada, abre `prototipo/v2/index.html`. Ambas versiones usan HTML, CSS y JavaScript, y no requieren instalación ni servidor.
+---
 
-## Alcance
+## Equipo de Trabajo y Roles
 
-Tienda Clara permite explorar el catálogo, consultar información y revisar el carrito. Es una demostración académica: no procesa pagos ni realiza transacciones reales.
+| Integrante | Rol en el Proyecto | Rama Git | Responsabilidad Principal |
+|---|---|---|---|
+| **Sebastián Vaca** (@Sebas2h) | Redacción y Arquitectura Base | `sebastian` | Elaboración del informe inicial, planteamiento de objetivos y estructura de la práctica (`Informe_APE4_UTA.docx`). |
+| **Andrew Lara** (@alara05) | Desarrollo de Prototipo Base | `andrew` | Implementación de la primera versión funcional del prototipo interactivo (`prototipo/v1`). |
+| **Verónica Jaque** (@ArteMisa82) | Desarrollo de Prototipo Final | `veronica` | Mejora integral de interfaz, micro-interacciones y accesibilidad web WCAG (`prototipo/v2`). |
+| **Elizabeth De la Cruz** (@Elizabeth1925) | Evaluación y Documentación Final | `elizabeth` | Ejecución del protocolo de pruebas de usabilidad con usuarios, auditoría de accesibilidad y consolidación del informe final. |
 
-## Interacción y accesibilidad
+---
 
-- La navegación usa controles semánticos con nombres accesibles.
-- Hay un enlace para saltar directamente al contenido principal.
-- Los mensajes de estado se anuncian mediante `aria-live`.
-- La interfaz se adapta a distintos tamaños de pantalla.
+## Cómo Probar los Prototipos
 
-## Archivos
+Ambas versiones están desarrolladas con tecnologías web nativas (**HTML5, CSS3 y JavaScript vanilla**), por lo que **no requieren dependencias, compilación ni servidor**:
 
-- `Informe_APE4_UTA.docx`: informe de la actividad.
-- `prototipo/`: primera versión del prototipo.
-- `prototipo/v2/`: versión ampliada del prototipo.
+- **Prototipo v1 (Versión Inicial):** Abrir [`prototipo/index.html`](prototipo/index.html) en el navegador.
+- **Prototipo v2 (Versión Final Mejorada):** Abrir [`prototipo/v2/index.html`](prototipo/v2/index.html) en el navegador.
+
+---
+
+## Documentación del Proyecto
+
+- 📄 [`Informe_APE4_UTA.docx`](Informe_APE4_UTA.docx): Informe formal del proyecto (portada, metodología, requisitos y protocolo).
+- 📋 [`docs/informe_inicial.md`](docs/informe_inicial.md): Síntesis de requisitos (R1–R6), diagnóstico y sitemap.
+- 📊 [`docs/pruebas_usabilidad_accesibilidad.md`](docs/pruebas_usabilidad_accesibilidad.md): Resultados empíricos de las pruebas con participantes (P01 y P02), métricas de tiempo, tasa de éxito y auditoría WCAG 2.1 AA.
+- 📁 [`prototipo/README.md`](prototipo/README.md): Documentación técnica del prototipo v1.
+- 📁 [`prototipo/v2/README.md`](prototipo/v2/README.md): Documentación técnica y comparativa de mejoras del prototipo v2.
+
+---
+
+## Alcance Académico
+*Tienda Clara* permite explorar el catálogo, buscar productos, filtrar por categorías, consultar detalles de artículos, gestionar el carrito de compras con persistencia local y completar una simulación de pedido con validación de datos. Es una demostración estrictamente educativa y no procesa transacciones bancarias ni almacena datos personales reales.
