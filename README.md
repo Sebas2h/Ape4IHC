@@ -30,6 +30,8 @@ Ambas versiones están desarrolladas con tecnologías web nativas (**HTML5, CSS3
 
 - 📄 [`Informe_APE4_UTA.docx`](Informe_APE4_UTA.docx): Informe formal del proyecto (portada, metodología, requisitos y protocolo).
 - 📕 [`Informe_APE4_UTA.pdf`](Informe_APE4_UTA.pdf): Versión final completa en formato PDF del informe formal del proyecto.
+- 📐 [`Documento/main.tex`](Documento/main.tex): Documento formal completo en código LaTeX (formato institucional UTA–FISEI).
+- 📑 [`Documento/main.pdf`](Documento/main.pdf): PDF compilado directamente a partir del código LaTeX.
 - 📋 [`docs/informe_inicial.md`](docs/informe_inicial.md): Síntesis de requisitos (R1–R6), diagnóstico y sitemap.
 - 📊 [`docs/pruebas_usabilidad_accesibilidad.md`](docs/pruebas_usabilidad_accesibilidad.md): Resultados empíricos de las pruebas con participantes (P01 y P02), métricas de tiempo, tasa de éxito y auditoría WCAG 2.1 AA.
 - 📁 [`prototipo/README.md`](prototipo/README.md): Documentación técnica del prototipo v1.
